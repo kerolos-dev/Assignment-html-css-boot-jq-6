@@ -1,0 +1,190 @@
+*{
+    --meian--color:#31de79;
+
+}
+#btnup{
+  background-color: var(--meian--color);
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.text-meian{
+    color:var(--meian--color);
+    letter-spacing: 5px ;
+}
+.bg-item{
+
+    background-color: #31de79;
+
+}
+.text-back{
+    background: linear-gradient(135deg, #9ff669 0%, #31de79 100%);
+    
+}
+/* nav */
+.nav-link{
+    font-weight: 400 !important;
+    transition: all 1s !important;
+
+}
+
+
+.nav-link:hover{
+    color: #31de79 !important;
+border-bottom: #31de79 3px solid;
+}
+/* header */
+header{
+    background-image: url(../img/bg_2.jpg);
+    background-position: center;
+    height: 100vh;
+
+    background-size: cover;
+}
+
+
+
+
+/* services */
+.item-work{
+    position: relative;
+    
+
+}
+.item-hver{
+    transition: all 1s !important;
+
+    position: absolute;
+    top: 20px;
+    left: 316PX;
+    border-color: transparent transparent  transparent transparent !important;
+    border-width: 10px;
+    
+    border-style: solid;
+}
+ 
+
+.item-work:hover .item-hver{
+    position: absolute;
+    top: 20px;
+    left: 304PX;
+    border-color: transparent rgb(247, 240, 240)  transparent transparent !important;
+    border-width: 10px;
+    border-style: solid;
+
+}
+
+.item-hvericon{
+    transition: all 1s  ;
+
+}
+.item-hvericon:hover{
+    color: #c9e4c0 !important;
+    font-size:25px !important   ;
+    
+ 
+  }
+  .item-srevi{
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .item-srevi{
+    transition: all 1s;
+
+  }
+  .item-srevi:hover{
+    transform: translate(-15px) !important;
+  }
+
+
+
+
+  /*  */
+  .card{
+    position: relative;
+    transition: all 1s; 
+    border: 1PX solid ;
+    overflow: hidden; 
+    
+  }
+  .card img{
+    transition: all 1s; 
+}
+  .card:hover img{
+    transform:  scale(1.1);
+  }
+  .card-body{
+    position: absolute;
+    top: 83%;
+    transition: all 1s; 
+
+    opacity: 0.0;
+    
+    background-color: #31de7963; 
+    width: 100%;
+  }
+  .card:hover .card-body{
+    opacity: 0.9;
+  }
+
+  .carousel-indicators [data-bs-target]{
+    background-color: white !important;
+     height: 25px !important; 
+     border: 1px solid #c9e4c0 !important;
+     border-radius: 50% !important; 
+     transition:  all 1s !important;
+  } 
+  .carousel-indicators [data-bs-target][data-bs-target]:hover{
+    background-color: #31de79 !important;
+    color: #31de79 !important ;
+  }
+
+
+  /* about */
+  .item-mg{
+    position: absolute;
+    left: 30% ;
+  }
+  .item-font{
+transition: all 1s;
+
+  }
+  .item-font:hover{
+    color: #31de79;
+    transform: perspective(500PX) rotateY(45DEG);
+  }
+
+
+  /*  */
+  .item-wrokimg{
+    transform: translateY(-50%) translateX(35%);
+  
+  }
+
+  .item-wrokimg i{
+    transform: translateY(100%) translateX(-75%);
+
+  }
+
+
+
+
+  /*  */
+
+  .item-woek{
+    position: relative;
+  }
+
+  .item-immgs{
+    position: absolute;
+    width: 50% !important;
+    top: 0;
+    background: linear-gradient(135deg, #9ff669 0%, #31de79 100%);
+    left: 0;
+    width: 100%;
+  }
+  
+
+  /* item-cotact */
+  .item-cotact{
+    background: linear-gradient(135deg, #9ff669 0%, #31de79 100%);
+  }
